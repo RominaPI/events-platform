@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header';
+import EventList from './components/EventList';
+
 
 
 function App() {
@@ -13,7 +15,7 @@ function App() {
 
     <>
     <Header />
-    <h1>Si ves esto, React funciona</h1>
+     <EventList />
 
       <div>
         <a href="https://vite.dev" target="_blank">
