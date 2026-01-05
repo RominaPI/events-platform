@@ -1,8 +1,7 @@
-function Header() {
+function Header({ title }) {
   return (
     <header>
-      <h2>Events Platform</h2>
-      <p>Encuentra eventos interesantes</p>
+      <h1>{title}</h1>
     </header>
   );
 }
